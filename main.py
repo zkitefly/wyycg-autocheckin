@@ -208,4 +208,4 @@ if __name__ == "__main__":
     ppsend(ppkey, ppinfomsg)
     print(teleinfomsg)
     if (len(failure) != 0):
-        raise ScriptRunError
+        # raise ScriptRunError
