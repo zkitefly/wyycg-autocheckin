@@ -207,5 +207,5 @@ if __name__ == "__main__":
     qqsend(qqkey, qqinfomsg)
     ppsend(ppkey, ppinfomsg)
     print(teleinfomsg)
-    if (len(failure) != 0):
+    # if (len(failure) != 0):
         # raise ScriptRunError
