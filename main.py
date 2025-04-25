@@ -43,8 +43,8 @@ if ppkey != '':
 else:
     print('未配置PushPlus推送！')
 
-class ScriptRunError(Exception):
-    print("[网易云游戏自动签到]脚本运行错误，具体请参见日志！")
+# class ScriptRunError(Exception):
+#     print("[网易云游戏自动签到]脚本运行错误，具体请参见日志！")
 
 
 def signin(url, cookie):
